@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --yellow:#eeae1c;
     --beige:#efe0c5;
     --text:#582a14;
@@ -26,7 +26,7 @@ li {
 
 /* container */
 
-.container{
+.container {
   max-width: 1440px;
   height: 80vh;
   background:  rgba(255, 255, 255, 0.15);  
@@ -54,6 +54,7 @@ li {
     background-color: var(--text);
     border-color: var(--beige);
     display: inline-block;
+    line-height: 1.5;
     text-decoration: none;
     cursor: pointer;
     border: 1px solid transparent;
@@ -75,14 +76,14 @@ li {
     align-items: center;
 }
 
-.nav-links{
+.nav-links {
     position: relative;
     right: -400px;
     display: flex;
     align-items: center;
 }
 
-.nav-links.active{
+.nav-links.active {
     position: absolute;
     left: 0;
     top: 0;
@@ -114,11 +115,11 @@ li {
     margin-left: 2rem;
 }
 
-.nav-links li a:hover{
+.nav-links li a:hover {
     opacity: 0.5;
 }
 
-.nav-links .btn{
+.nav-links .btn {
     margin-left: 2rem;
 }
 
