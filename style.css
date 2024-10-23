@@ -12,7 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
 body {
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(90deg,var(--yellow),var(--beige));
+    background: linear-gradient(90deg, var(--yellow), var(--beige));
     color: var(--text);
     text-shadow: 1px 1px 1px #333;
     overflow-wrap: break-word;
