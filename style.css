@@ -102,7 +102,7 @@ li {
     display: none;
 }
 
-.fa-times.open {
+.fa-xmark.open {
     display: flex;
     position: relative;
     justify-content: flex-end;
@@ -124,7 +124,7 @@ li {
 }
 
 .fa-bars,
-.fa-times {
+.fa-xmark {
     cursor: pointer;
     display: none;
 }
